@@ -446,6 +446,6 @@ select * from invoices;
 select * from orders;
 
 
-alter table invoice rename to invoices;
+
 );
 ```
