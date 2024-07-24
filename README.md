@@ -1,14 +1,7 @@
 # SOCIAL OPLESK
 ### 🏴‍☠️ HACKS 
 
-<br/>
 
-📚 tutoriales de python [tutorial 1](https://www.w3schools.com/postgresql/index.php) | [tutorial 2](https://www.tutorialesprogramacionya.com/postgresqlya/)
----
-
-```diff
-- NOTA HACER LAS PRÁCTICAS MEDIANTE coderpad.io / onecompiler.com / sqliteonline.com
-```
 
 <br/>
 
@@ -24,19 +17,13 @@
 
 
 ## 🏆 H-1
-![](https://github.com/SocialOplesk/hack_sql_1/blob/main/assets/register_database.png)
-
-![](https://github.com/SocialOplesk/hack_sql_1/blob/main/gifs/hack_sql_1_run_gif.gif)
 ```sh
-
 design register database
 
 tables:
 - table countries
 - table users
 
------------------
-⚡ example script
 
 create table countries(
   id_country serial primary key,
@@ -54,13 +41,9 @@ create table users(
 
 
 ## 🏆 H-2
-![](https://github.com/SocialOplesk/hack_sql_1/blob/main/gifs/hack_sql_1_install_gif.gif)
-
 ```sh
 crud register database
 
------------------
-⚡ example script
 
 ✔ create:
 - insert into countries (name) values ('argentina') , ('colombia'),('chile');
@@ -86,7 +69,6 @@ crud register database
 
 
 ## 🏆 H-3
-![](https://github.com/SocialOplesk/hack_sql_1/blob/main/assets/contact_database.png)
 ```sh
 design contact database
 
@@ -155,7 +137,7 @@ WHERE id_email = (SELECT id_email FROM contact_request ORDER BY id_email ASC LIM
 
 
 ## 🏆 H-5
-![](https://github.com/SocialOplesk/hack_sql_1/blob/main/assets/ecommerce_database.png)
+
 ```sh
 design ecommerce database
 
